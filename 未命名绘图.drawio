@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-06T03:44:43.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="s2eMIpOg8dhgHt0UXoGz" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-06T03:50:01.006Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3pxhPUJPgVtXq9HZsSSJ" version="22.1.17" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1728" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -33,6 +33,12 @@
         <mxCell id="A0iOIshMNF5UCfsPNKWk-40" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Consolas, &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 22px; line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;cef_initialize&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="550" width="255" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="A0iOIshMNF5UCfsPNKWk-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A0iOIshMNF5UCfsPNKWk-43" target="A0iOIshMNF5UCfsPNKWk-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A0iOIshMNF5UCfsPNKWk-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A0iOIshMNF5UCfsPNKWk-43" target="A0iOIshMNF5UCfsPNKWk-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A0iOIshMNF5UCfsPNKWk-43" value="do something" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="508" y="660" width="80" height="80" as="geometry" />
         </mxCell>
@@ -62,6 +68,26 @@
         </mxCell>
         <mxCell id="A0iOIshMNF5UCfsPNKWk-71" value="检查命令行参数" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.75;" vertex="1" parent="1">
           <mxGeometry x="380" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A0iOIshMNF5UCfsPNKWk-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A0iOIshMNF5UCfsPNKWk-74" target="A0iOIshMNF5UCfsPNKWk-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="548" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A0iOIshMNF5UCfsPNKWk-74" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Consolas, &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 22px; line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;cef_run_message_loop&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420.5" y="1070" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A0iOIshMNF5UCfsPNKWk-76" value="end" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="1200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A0iOIshMNF5UCfsPNKWk-78" value="创建 browser 对象" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.58;" vertex="1" parent="1">
+          <mxGeometry x="910" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A0iOIshMNF5UCfsPNKWk-79" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Consolas, &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 22px; line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;cef_browser_host_create_browser&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="670" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A0iOIshMNF5UCfsPNKWk-82" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Consolas, &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 22px; line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;get_render_process_handler&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="270" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
