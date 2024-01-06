@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-06T03:56:42.311Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tGwfTfElkYTUG20NFVbJ" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-06T03:57:18.541Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="WDavACHpitH2UFEeaQdi" version="22.1.17" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1728" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,9 +35,6 @@
         </mxCell>
         <mxCell id="A0iOIshMNF5UCfsPNKWk-40" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Consolas, &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 22px; line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;cef_initialize&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="550" width="255" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="A0iOIshMNF5UCfsPNKWk-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A0iOIshMNF5UCfsPNKWk-43" target="A0iOIshMNF5UCfsPNKWk-74">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A0iOIshMNF5UCfsPNKWk-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A0iOIshMNF5UCfsPNKWk-43" target="A0iOIshMNF5UCfsPNKWk-79">
           <mxGeometry relative="1" as="geometry" />
@@ -86,6 +83,9 @@
         <mxCell id="A0iOIshMNF5UCfsPNKWk-78" value="创建 browser 对象" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.58;" vertex="1" parent="1">
           <mxGeometry x="910" y="590" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="A0iOIshMNF5UCfsPNKWk-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A0iOIshMNF5UCfsPNKWk-79" target="A0iOIshMNF5UCfsPNKWk-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A0iOIshMNF5UCfsPNKWk-79" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Consolas, &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 22px; line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;cef_browser_host_create_browser&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="670" width="400" height="60" as="geometry" />
         </mxCell>
@@ -112,6 +112,12 @@
         </mxCell>
         <mxCell id="A0iOIshMNF5UCfsPNKWk-88" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Consolas, &amp;quot;Source Code Pro&amp;quot;, &amp;quot;Source Code Pro&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 22px; line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;&lt;div style=&quot;line-height: 30px;&quot;&gt;on_process_message_received&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="A0iOIshMNF5UCfsPNKWk-89">
           <mxGeometry x="70" y="470" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A0iOIshMNF5UCfsPNKWk-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A0iOIshMNF5UCfsPNKWk-91" target="A0iOIshMNF5UCfsPNKWk-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A0iOIshMNF5UCfsPNKWk-91" value="do something" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="920" y="850" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
